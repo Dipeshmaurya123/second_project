@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 900px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            position: relative;  /* To position the image inside this container */
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            font-size: 36px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            border-bottom: 2px solid #4CAF50; /* Added border under the title */
+            padding-bottom: 10px;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #ccc;
+            margin: 20px 0;
+        }
+
+        h3 {
+            color: #333;
+            margin-top: 20px;
+        }
+
+        p {
+            color: #555;
+            font-size: 16px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            border: 1px solid #ddd; /* Border around the entire table */
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            color: #333;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .table-container {
+            margin-top: 20px;
+        }
+
+        /* Image Container: Position it at the top right */
+        .image-container {
+            position: absolute;
+            top: 60px; /* Adjust this value to move image down or up */
+            right: 10px; /* Adjust this value to move image left or right */
+            text-align: center;
+        }
+
+        .image-container img {
+            position: relative;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #4CAF50; /* Added border around image */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .personal-details td {
+            padding: 10px;
+            color: #d11717;
+        }
+
+        .personal-details th {
+            padding: 10px;
+            /* color: #24c852; */
+            color: orange;
+
+            /* background-color: rgb(255, 102, 178); */
+        }
+
+        .skills-list p, .languages-list p {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+
+        /* Adding Icons and extra styling */
+        .contact-info i {
+            margin-right: 10px;
+            color: #4CAF50;
+        }
+
+        .contact-info a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .icon-container {
+            font-size: 18px;
+            color: #4CAF50;
+        }
+
+        .icon-container i {
+            margin-right: 10px;
+        }
+
+        /* Skills and Languages Symbols */
+        .skills-list p, .languages-list p {
+            display: flex;
+            align-items: center;
+        }
+
+        .skills-list p:before, .languages-list p:before {
+            content: "\2022"; /* Bullet symbol */
+            color: #4CAF50;
+            margin-right: 10px;
+        }
+
+        /* Adding border around sections */
+        .section-border {
+            border: 2px solid #4CAF50;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        /* Styling for header sections */
+        h3 {
+            color: #4CAF50;
+            font-size: 24px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Personal Information -->
+        <div class="image-container">
+            <!-- Correct image path here -->
+            <img src="dipesh_maurya_photo.jpg" alt="Dipesh Maurya">
+        </div>
+
+        <h1>RESUME</h1>
+        <hr>
+
+        <h3>Dipesh Dinesh Maurya</h3>
+        <div class="contact-info">
+            <p><i class="fas fa-map-marker-alt"></i> Devidham Nagar, Yadav Nagar, MIDC Road, Navi Mumbai, Maharashtra 400708</p>
+            <p><i class="fas fa-phone-alt"></i> Phone: 9167858131</p>
+            <p><i class="fas fa-envelope"></i> Email: <a href="mailto:dipeshmaurya15520@gmail.com">dipeshmaurya15520@gmail.com</a></p>
+        </div>
+        <hr>
+
+        <!-- Objective Section -->
+        <div class="section-border">
+            <h3>Objective <i class="fas fa-bullseye"></i></h3>
+            <p>I seek challenging opportunities where I can fully use my skills for the success of the organization.</p>
+        </div>
+        <hr>
+
+        <!-- Experience Section -->
+        <div class="section-border">
+            <h3>Experience <i class="fas fa-briefcase"></i></h3>
+            <p><strong>November 17, 2023 - March 31, 2024</strong><br>Tech Mahindra<br> 5 months experience in Vodafone Customer Care Support</p>
+        </div>
+        <hr>
+
+        <!-- Education Section -->
+        <div class="table-container section-border">
+            <h3>Education <i class="fas fa-graduation-cap"></i></h3>
+            <table>
+                <tr>
+                    <th>Course/Degree</th>
+                    <th>School/University</th>
+                    <th>Grade/Score</th>
+                    <th>Year</th>
+                </tr>
+                <tr>
+                    <td>10<sup>th</sup></td>
+                    <td>M.G.H. School</td>
+                    <td>73.8%</td>
+                    <td>2019</td>
+                </tr>
+                <tr>
+                    <td>Computer Science</td>
+                    <td>Mumbai University</td>
+                    <td>73.8%</td>
+                    <td>2021</td>
+                </tr>
+                <tr>
+                    <td>12<sup>th</sup></td>
+                    <td>Janta I College, Rudapur, Prayagraj</td>
+                    <td>50%</td>
+                    <td>2022</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+
+        <!-- Skills Section -->
+        <div class="skills-list section-border">
+            <h3>Skills <i class="fas fa-cogs"></i></h3>
+            <p>Communication Skills</p>
+            <p>People Skills</p>
+            <p>Collaboration Talent</p>
+            <p>Problem-Solving Abilities</p>
+            <p>HTML</p>
+        </div>
+        <hr>
+
+        <!-- Languages Section -->
+        <div class="languages-list section-border">
+            <h3>Languages <i class="fas fa-language"></i></h3>
+            <p>Hindi</p>
+            <p>English</p>
+        </div>
+        <hr>
+
+        <!-- Personal Details Section -->
+        <div class="table-container section-border">
+            <h3>Personal Details <i class="fas fa-id-card"></i></h3>
+            <table class="personal-details">
+                <tr>
+                    <th>Date of Birth</th>
+                    <td>06/08/2005</td>
+                </tr>
+                <tr>
+                    <th>Marital Status</th>
+                    <td>Single</td>
+                </tr>
+                <tr>
+                    <th>Gender</th>
+                    <td>Male</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
