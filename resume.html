@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 900px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            position: relative;  /* To position the image inside this container */
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #ccc;
+            margin: 20px 0;
+        }
+
+        h3 {
+            color: #333;
+            margin-top: 20px;
+        }
+
+        p {
+            color: #555;
+            font-size: 16px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            color: #333;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .table-container {
+            margin-top: 20px;
+        }
+
+        /* Image Container: Position it at the top right */
+        .image-container {
+            position: absolute;
+            top: 60px; /* Adjust this value to move image down or up */
+            right: 10px; /* Adjust this value to move image left or right */
+            text-align: center;
+            /* width: 80px; */
+        }
+
+        .image-container img {
+            top:110px;
+            position: relative;
+            width: 150px;
+            height: 100px;
+            width: 80px;
+            border: 2px solid #ccc;
+            box-shadow: 0 0 10px ;
+        }
+
+        .personal-details td {
+            padding: 10px;
+            color: #d11717;
+        }
+
+        .personal-details th {
+            padding: 10px;
+            color: #24c852;
+            background-color:rgb(255, 102, 178));
+        }
+
+        .skills-list p, .languages-list p {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Personal Information -->
+        <div class="image-container">
+            <!-- Correct image path here -->
+            <img src="dipesh_maurya_photo.jpg" alt="Dipesh Maurya">
+        </div>
+
+        <h1>RESUME</h1>
+        <hr>
+
+        <h3>Dipesh Dinesh Maurya</h3>
+        <p>Devidham Nagar, Yadav Nagar, MIDC Road, Navi Mumbai, Maharashtra 400708</p>
+        <p>Phone: 9167858131</p>
+        <p>Email: <a href="mailto:dipeshmaurya15520@gmail.com">dipeshmaurya15520@gmail.com</a></p>
+        <hr>
+
+        <!-- Objective Section -->
+        <div>
+            <h3>Objective</h3>
+            <p>I seek challenging opportunities where I can fully use my skills for the success of the organization.</p>
+        </div>
+        <hr>
+
+        <!-- Experience Section -->
+        <div>
+            <h3>Experience</h3>
+            <p><strong>November 17, 2023 - March 31, 2024</strong><br>Tech Mahindra<br> 5 months experience in Vodafone Customer Care Support</p>
+        </div>
+        <hr>
+
+        <!-- Education Section -->
+        <div class="table-container">
+            <h3>Education</h3>
+            <table>
+                <tr>
+                    <th>Course/Degree</th>
+                    <th>School/University</th>
+                    <th>Grade/Score</th>
+                    <th>Year</th>
+                </tr>
+                <tr>
+                    <td>10<sup>th</sup></td>
+                    <td>M.G.H. School</td>
+                    <td>73.8%</td>
+                    <td>2019</td>
+                </tr>
+                <tr>
+                    <td>Computer Science</td>
+                    <td>Mumbai University</td>
+                    <td>73.8%</td>
+                    <td>2021</td>
+                </tr>
+                <tr>
+                    <td>12<sup>th</sup></td>
+                    <td>Janta I College, Rudapur, Prayagraj</td>
+                    <td>50%</td>
+                    <td>2022</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+
+        <!-- Skills Section -->
+        <div class="skills-list">
+            <h3>Skills</h3>
+            <p>Communication Skills</p>
+            <p>People Skills</p>
+            <p>Collaboration Talent</p>
+            <p>Problem-Solving Abilities</p>
+            <p>HTML</p>
+        </div>
+        <hr>
+
+        <!-- Languages Section -->
+        <div class="languages-list">
+            <h3>Languages</h3>
+            <p>Hindi</p>
+            <p>English</p>
+        </div>
+        <hr>
+
+        <!-- Personal Details Section -->
+        <div class="table-container">
+            <h3>Personal Details</h3>
+            <table class="personal-details">
+                <tr>
+                    <th>Date of Birth</th>
+                    <td>06/08/2005</td>
+                </tr>
+                <tr>
+                    <th>Marital Status</th>
+                    <td>Single</td>
+                </tr>
+                <tr>
+                    <th>Gender</th>
+                    <td>Male</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</body>
+</html>
